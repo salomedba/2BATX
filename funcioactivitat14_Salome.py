@@ -8,7 +8,7 @@ def crear (lista):
 	else:
 		for i in range(numero):
 			print"Dime l'element ", i+1, ": "
-			n = int(input())
+			n = float(input())
 			lista += [n]
 	print"La llista creada és:", lista
 	
